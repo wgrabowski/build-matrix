@@ -1,0 +1,14 @@
+{
+  "stages": [
+    "dev",
+    "prod"
+  ],
+  "projects": [
+    {
+      "label": "my-job",
+      "stages": {
+        "dev": "my-job-dev",
+        "prod": "my-job-prod"
+      }
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "host":"jenkins.my-domain.com",
+  "user":"myUser",
+  "token":"myToken"
+}
