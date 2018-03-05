@@ -3,8 +3,8 @@
   --color-dark: #3d4959;
   --color-light: #dee5de;
   --header-height: 4em;
-  --color-success: #339933;
-  --color-failed: #f33;
+  --color-success: #006633;
+  --color-failed: #c00;
 }
 .App{
   display: grid;

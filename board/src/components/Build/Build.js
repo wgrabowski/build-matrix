@@ -51,7 +51,7 @@ class Build extends Component {
     if (this.props.name && !building && timestamp) {
       return (
         <div className={`Build Build--${result.toLowerCase()}`} >
-          <Moment fromNow ago>{timestamp}</Moment>
+          <Moment fromNow ago class="Build-ago">{timestamp}</Moment>
           <small className="Build-duration">{this.formatDuration(duration)}</small>
         </div>
       );

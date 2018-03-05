@@ -15,14 +15,19 @@
     background: var(--color-success);
 }
 
-.Build--error {
-    background: var(--color-error);
+.Build--failure {
+    background: var(--color-failed);
 }
 .Build--unstable {
   background: var(--color-unstable);
 }
 .Build-duration {
   font-size:0.7em;
+}
+.Build-ago {
+white-space: nowrap;
+overflow: hidden;
+overflow-text: ellipsis;
 }
 .Build-progress {
     position: absolute;
