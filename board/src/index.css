@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+@import url('https://rsms.me/inter/inter-ui.css?v=2.5');
+
+html,body,body * {
+  all:unset;
+  display: block;
+  box-sizing: border-box;
+  font: calc(16px + 1.5vmin) 'Inter UI','Fira Sans',sans-serif;
+}

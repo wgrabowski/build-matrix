@@ -1,0 +1,15 @@
+.Board {
+    width: auto;
+    height: 100%;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-gap:1px;
+}
+
+.Board > * {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

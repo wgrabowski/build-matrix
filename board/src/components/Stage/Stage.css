@@ -1,0 +1,10 @@
+.Stage {
+ background:var(--color-dark);
+ color: var(--color-light);
+ display:grid;
+ align-items:center;
+ justify-content: center;
+ font-size:0.75em;
+ padding:0 0.5em;
+ text-transform: uppercase;
+}

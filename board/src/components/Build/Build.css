@@ -1,0 +1,56 @@
+.Build {
+    font-weight: bold;
+    position: relative;
+    color:var(--color-light);
+    background:var(--color-dark);
+    align-content: center;
+    text-align: center;
+}
+
+.Build--notConfigured {
+    font-size: 1.5em;
+}
+
+.Build--success {
+    background: var(--color-success);
+}
+
+.Build--error {
+    background: var(--color-error);
+}
+.Build--unstable {
+  background: var(--color-unstable);
+}
+.Build-duration {
+  font-size:0.7em;
+}
+.Build-progress {
+    position: absolute;
+    height: 100%;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    animation: pulse 4s infinite;
+    
+}
+
+.Build-progress::after {
+    content: attr(progress)'%';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--color-dark)
+}
+
+@keyframes pulse {
+    from {
+        opacity: 1
+    }
+    50%{
+      opacity: 0.5
+    }
+    to {
+        opacity: 1
+    }
+}
